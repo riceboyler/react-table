@@ -6,15 +6,15 @@ export default {
     'Installation',
     'Concepts',
     'Quick Start',
-    'Examples',
-    'API',
+    {
+      name: 'Examples',
+      menu: ['Simple', 'Complex', 'Controlled', 'UI/Rendering'],
+    },
+    { name: 'API', menu: ['Overview', 'useTable'] },
     'FAQ',
     'Contributing',
     'Code of Conduct',
     'Changelog',
     'TypeScript',
   ],
-  themeConfig: {
-    initialColorMode: 'dark',
-  },
 }
