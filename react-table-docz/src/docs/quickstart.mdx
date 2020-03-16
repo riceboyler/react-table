@@ -105,6 +105,8 @@ Again, if you're relatively new to JavaScript (or ES2015+ syntax), you may wonde
 
 If we put all of this together, we should get a very basic (boring) table. (_Styles added just to make it a little more attractive..._)
 
+_The following example is a live component, so as you make changes in the code, it should update the table at the top._
+
 import { Playground } from 'docz'
 import { useTable } from 'react-table'
 
@@ -153,7 +155,7 @@ import { useTable } from 'react-table'
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map(column => (
-                <th {...column.getHeaderProps()} style={{ borderBottom: 'solid 3px red', background: 'white', color: 'black', fontWeight: 'bold'}}>{column.render('Header')}</th>
+                <th {...column.getHeaderProps()} style={{ borderBottom: 'solid 3px red', background: 'aliceblue', color: 'black', fontWeight: 'bold'}}>{column.render('Header')}</th>
               ))}
             </tr>
           ))}
@@ -164,7 +166,7 @@ import { useTable } from 'react-table'
             return (
               <tr {...row.getRowProps()}>
                 {row.cells.map(cell => {
-                  return <td {...cell.getCellProps()} style={{ padding: '10px', border: 'solid 1px gray'}}>{cell.render('Cell')}</td>
+                  return <td {...cell.getCellProps()} style={{ padding: '10px', border: 'solid 1px gray', background: 'papayawhip'}}>{cell.render('Cell')}</td>
                 })}
               </tr>
             )
