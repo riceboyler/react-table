@@ -1,6 +1,6 @@
 {
   "name": "react-table",
-  "version": "7.0.0",
+  "version": "7.0.4",
   "description": "Hooks for building lightweight, fast and extendable datagrids for React",
   "license": "MIT",
   "homepage": "https://github.com/tannerlinsley/react-table#readme",
@@ -26,18 +26,24 @@
     "prepare": "yarn build",
     "release": "yarn publish",
     "releaseNext": "yarn publish --tag next",
-    "format": "prettier {src,src/**,examples/*/src,examples/*/src/**}/*.{md,js,jsx,tsx} --write"
+    "format": "prettier {src,src/**,examples/*/src,examples/*/src/**}/*.{md,js,jsx,tsx} --write",
+    "docz:build": "docz build",
+    "docz:dev": "docz dev",
+    "docz:serve": "docz build && docz serve",
+    "postinstall": "node ./scripts/postinstall.js || exit 0"
   },
   "files": [
     "CHANGELOG.md",
     "src/**/*.js",
     "index.d.ts",
     "dist",
-    "LICENCE",
-    "package.json",
-    "README.md"
+    "README.md",
+    "scripts/"
   ],
   "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "@scarf/scarf": "^0.1.5"
+  },
   "peerDependencies": {
     "react": "^16.8.3"
   },
@@ -56,6 +62,7 @@
     "babel-jest": "^24.9.0",
     "core-js": "3.4.1",
     "cross-env": "^6.0.3",
+    "docz": "^2.2.0",
     "eslint": "6.6.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-config-react-app": "^5.0.2",
@@ -70,6 +77,7 @@
     "eslint-plugin-react": "7.16.0",
     "eslint-plugin-react-hooks": "2.3.0",
     "eslint-plugin-standard": "^4.0.1",
+    "gatsby-theme-docz": "^2.2.0",
     "is-ci-cli": "^2.0.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
@@ -83,7 +91,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-test-renderer": "^16.13.0",
-    "rollup": "^1.27.3",
+    "rollup": "^1.32.1",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",

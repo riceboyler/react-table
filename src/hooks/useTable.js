@@ -237,11 +237,11 @@ export const useTable = (props, ...plugins) => {
     ]
   )
 
-  // Combine new visible columns with all columns (dedupe prefers later columns)
+  // Combine new visible columns with all columns
   allColumns = React.useMemo(() => {
-    const columns = [...allColumns]
+    const columns = [...visibleColumns]
 
-    visibleColumns.forEach(column => {
+    allColumns.forEach(column => {
       if (!columns.find(d => d.id === column.id)) {
         columns.push(column)
       }
@@ -402,10 +402,12 @@ export const useTable = (props, ...plugins) => {
 
       // Build the visible cells for each row
       row.allCells = allColumns.map(column => {
+        const value = row.values[column.id]
+
         const cell = {
           column,
           row,
-          value: row.values[column.id],
+          value,
         }
 
         // Give each cell a getCellProps base
@@ -418,6 +420,7 @@ export const useTable = (props, ...plugins) => {
         cell.render = makeRenderer(getInstance(), column, {
           row,
           cell,
+          value,
         })
 
         return cell

@@ -1,3 +1,9 @@
+---
+name: useTable
+route: /api/useTable
+menu: API
+---
+
 # `useTable`
 
 - Required
@@ -40,7 +46,7 @@ The following options are supported via the main options object passed to `useTa
   - If you need to control part of the table state, this is the place to do it.
   - This function is run on every single render, just like a hook and allows you to alter the final state of the table if necessary.
   - You can use hooks inside of this function, but most of the time, we just suggest using `React.useMemo` to memoize your state overrides.
-  - See the FAQ ["How can I manually control the table state?"](../faq.md#how-can-i-manually-control-the-table-state) for a an example.
+  - See the FAQ ["How can I manually control the table state?"](/faq#how-can-i-manually-control-the-table-state) for a an example.
 - `defaultColumn: Object`
   - Optional
   - Defaults to `{}`
@@ -95,7 +101,7 @@ The following options are supported on any column object you can pass to `column
   - If a function/component is passed, it will be used for formatting the header value, eg. You can use a `Header` function to dynamically format the header using any table or column state.
 - `Cell: Function | React.Component => JSX`
   - Optional
-  - Defaults to `({ cell: { value } }) => String(value)`
+  - Defaults to `({ value }) => String(value)`
   - Receives the table instance and cell model as props
   - Must return valid JSX
   - This function (or component) is primarily used for formatting the column value, eg. If your column accessor returns a date object, you can use a `Cell` function to format that date to a readable format.

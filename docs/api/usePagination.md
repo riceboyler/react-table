@@ -1,3 +1,8 @@
+---
+name: usePagination
+route: /api/usePagination
+menu: API
+---
 # `usePagination`
 
 - Plugin Hook
@@ -34,7 +39,7 @@ The following options are supported via the main options object passed to `useTa
     - `manualFilters` is `false` and `state.filters` is changed
     - `manualGroupBy` is `false` and `state.groupBy` is changed
   - To disable, set to `false`
-  - For more information see the FAQ ["How do I stop my table state from automatically resetting when my data changes?"](../faq.md#how-do-i-stop-my-table-state-from-automatically-resetting-when-my-data-changes)
+  - For more information see the FAQ ["How do I stop my table state from automatically resetting when my data changes?"](/faq#how-do-i-stop-my-table-state-from-automatically-resetting-when-my-data-changes)
 - `paginateExpandedRows: Bool`
   - Optional
   - Only applies when using the `useExpanded` plugin hook simultaneously
@@ -81,5 +86,5 @@ The following values are provided to the table `instance`:
   - [Source](https://github.com/tannerlinsley/react-table/tree/master/examples/pagination)
   - [Open in CodeSandbox](https://codesandbox.io/s/github/tannerlinsley/react-table/tree/master/examples/pagination)
 - Controlled Pagination
-  - [Source](https://github.com/tannerlinsley/react-table/tree/master/examples/pagination)
-  - [Open in CodeSandbox](https://codesandbox.io/s/github/tannerlinsley/react-table/tree/master/examples/pagination)
+  - [Source](https://github.com/tannerlinsley/react-table/tree/master/examples/pagination-controlled)
+  - [Open in CodeSandbox](https://codesandbox.io/s/github/tannerlinsley/react-table/tree/master/examples/pagination-controlled)

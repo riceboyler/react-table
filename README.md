@@ -1,3 +1,8 @@
+---
+name: Getting Started
+route: /
+---
+
 ![React Table Header](https://github.com/tannerlinsley/react-table/raw/master/media/header.png)
 
 <img src='https://github.com/tannerlinsley/react-table/raw/master/media/logo.png' width='300'/>
@@ -5,7 +10,7 @@
 Hooks for building **lightweight, fast and extendable datagrids** for React
 
 <a href="https://twitter.com/intent/tweet?button_hashtag=TanStack" target="\_parent">
-  <img alt="#TanStack" src="https://img.shields.io/twitter/url?color=%2308a0e9&label=%23TanStack&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Fbutton_hashtag%3DTanStack">
+  <img alt="#TanStack" src="https://img.shields.io/twitter/url?color=%2308a0e9&label=%23TanStack&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Fbutton_hashtag%3DTanStack" />
 </a><a href="https://github.com/tannerlinsley/react-table/actions?table=workflow%3A%22react-table+tests%22">
 <img src="https://github.com/tannerlinsley/react-table/workflows/react-table%20tests/badge.svg" />
 </a><a href="https://npmjs.com/package/react-table" target="\_parent">
@@ -41,18 +46,61 @@ Enjoy this library? Try them all! [React Query](https://github.com/tannerlinsley
 - Server-side/controlled data/state
 - Extensible via hook-based plugin system
 
-## Documentation
+## Used By
 
-- [Installation](./docs/installation.md) - Walk through how to install React Table
-- [Concepts](./docs/concepts.md) - Read how React Table works and how you can use it better
-- [Examples](./docs/examples.md) - Experience and learn from some examples and guides of how to use React Table and implement common patterns
-- [API](./docs/api/README.md) - Get to know React Table's API
-- [FAQ](./docs/faq.md) - Learn how to use React Table for specific challenges and tasks
-- [Previous Versions](#previous-versions)
-- [Contributing](./CONTRIBUTING.md) - Become familiar with how to contribute back to React Table
-- [Code of Conduct](./CODE_OF_CONDUCT.md) - Be a good React Table citizen by following these repository rules
+- [Intuit](https://intuit.com)
+- [Google](https://google.com)
+- [Amazon](https://amazon.com)
+- [Apple](https://apple.com)
+- [AutoZone](https://autozone.com)
+- [Microsoft](https://microsoft.com)
+- [Cisco](https://cisco.com)
+- [Uber](https://uber.com)
+- [Walmart](https://walmart.com)
+- [HP](https://hp.com)
+- [Docusign](https://docusign.com)
+- [Tripwire](https://tripwire.com)
+- [Yahoo!](https://yahoo.com)
+- [Ocado](https://ocado.com)
+- [Nordstrom](https://nordstrom.com)
+- [TicketMaster](https://ticketmaster.com)
+- [Comcast Business](https://comcastbusiness.com)
 
-## Sponsors
+> _These analytics are made available via the awesome [Scarf](https://www.npmjs.com/package/@scarf/scarf) package analytics library_
+
+## Product Examples
+
+The examples below are built by our partners from [Creative Tim](https://creative-tim.com/?ref=react-table.js.org) and demonstrate how React Table can be integrated in real world applications. There are many examples that you can play with and each premium product comes with a free & open source version, too!
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href='https://www.creative-tim.com/product/material-dashboard-pro-react?ref=react-table.js.org'>
+          <div>Material Dashboard PRO React</div>
+          <img src="https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdp_react_thumbnail.jpg?1522160852" />
+        </a>
+        <div><small>Premium: $59 - Lite: Free</small></div>
+      </td>
+      <td>
+        <a href='https://www.creative-tim.com/product/black-dashboard-pro-react?ref=react-table.js.org'>
+          <div>Black Dashboard PRO React</div>
+          <img src="https://s3.amazonaws.com/creativetim_bucket/products/138/original/opt_bdp_thumbnail.jpg?1547454513" />
+        </a>
+        <div><small>Premium: $59 - Lite: Free</small></div>
+      </td>
+      <td>
+        <a href='https://www.creative-tim.com/product/now-ui-dashboard-pro-react?ref=react-table.js.org'>
+          <div>Now UI Dashboard PRO React</div>
+          <img src="https://s3.amazonaws.com/creativetim_bucket/products/73/original/opt_nudp_react_thumbnail.jpg?1518533306" />
+        </a>
+        <div><small>Premium: $59 - Lite: Free</small></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Github Sponsors
 
 This library is being built and maintained by me, @tannerlinsley and I am always in need of more support to keep this project afloat. If you would like to get additional support, add your logo or name on this README, or simply just contribute to my open source Sponsorship goal, [visit my Github Sponsors page!](https://github.com/sponsors/tannerlinsley/)
 
@@ -61,7 +109,7 @@ This library is being built and maintained by me, @tannerlinsley and I am always
     <tr>
       <td align="center" valign="middle">
         <a href="https://github.com/sponsors/tannerlinsley" target="_blank">
-          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/diamond.png">
+          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/diamond.png" />
         </a>
       </td>
       <td align="center" valign="middle">
@@ -78,12 +126,12 @@ This library is being built and maintained by me, @tannerlinsley and I am always
     <tr>
       <td align="center" valign="middle">
         <a href="https://github.com/sponsors/tannerlinsley/" target="_blank">
-          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/platinum.png">
+          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/platinum.png" />
         </a>
       </td>
       <td align="center" valign="middle">
         <a href="https://tryretool.com/?utm_source=sponsor&utm_campaign=react_table" target="_blank">
-          <img width='300' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/sponsor-retool.png">
+          <img width='300' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/sponsor-retool.png" />
         </a>
       </td>
       <td align="center" valign="middle">
@@ -100,12 +148,12 @@ This library is being built and maintained by me, @tannerlinsley and I am always
     <tr>
       <td align="center" valign="middle">
         <a href="https://github.com/sponsors/tannerlinsley/" target="_blank">
-          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/gold.png">
+          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/gold.png" />
         </a>
       </td>
       <td align="center" valign="middle">
         <a href="https://nozzle.io" target="_blank">
-          <img width='225' src="https://nozzle.io/img/logo-blue.png">
+          <img width='225' src="https://nozzle.io/img/logo-blue.png" alt="Nozzle - Google Keyword Rank Tracker" />
         </a>
       </td>
       <td align="center" valign="middle">
@@ -122,17 +170,17 @@ This library is being built and maintained by me, @tannerlinsley and I am always
     <tr>
       <td align="center" valign="middle">
         <a href="https://github.com/sponsors/tannerlinsley/" target="_blank">
-          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/silver.png">
+          <img width='150' src="https://raw.githubusercontent.com/tannerlinsley/files/master/images/patreon/silver.png" />
         </a>
       </td>
        <td align="center" valign="middle">
         <a href="https://tripwire.com" target="_blank">
-          <img width='170' src="https://www.tripwire.com/-/media/tripwiredotcom/icons/tripwire-logo-footer.svg">
+          <img width='170' src="https://www.tripwire.com/-/media/tripwiredotcom/icons/tripwire-logo-footer.svg" />
         </a>
       </td>
       <td align="center" valign="middle">
         <a href="https://www.fream.pl/" target="_blank">
-          <img width='170' src="https://www.fream.pl/wp-content/uploads/2017/08/logo.png">
+          <img width='170' src="https://www.fream.pl/wp-content/uploads/2017/08/logo.png" />
         </a>
       </td>
       <td align="center" valign="middle">
@@ -190,6 +238,8 @@ This library is being built and maintained by me, @tannerlinsley and I am always
           <li>Janus Reith (@janus-reith)</li>
           <li>Timo Mämecke (@timomeh)</li>
           <li>Tyler Reiff (@reiff12)</li>
+          <li>Matt Stvartak (@mattstvartak)</li>
+          <li>Nicholas Canvoa (@NicholasCanova)</li>
         </ul>
       </td>
       <td>
@@ -202,6 +252,10 @@ This library is being built and maintained by me, @tannerlinsley and I am always
 </table>
 
 ### [Become a Sponsor](https://github.com/sponsors/tannerlinsley/)
+
+## Documentation
+
+Visit our new documentation site at https://react-table.js.org
 
 ## Previous Versions
 

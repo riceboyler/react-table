@@ -1,3 +1,8 @@
+---
+name: FAQ
+route: /faq
+---
+
 # FAQ
 
 Below are some of the most frequently asked questions on how to use the React Table API to solve various table challenges you may encounter
@@ -108,13 +113,13 @@ React.useEffect(() => {
 
 useTable({
   ...
-  autoResetPage: !skipPageReset,
-  autoResetExpanded: !skipPageReset,
-  autoResetGroupBy: !skipPageReset,
-  autoResetSelectedRows: !skipPageReset,
-  autoResetSortBy: !skipPageReset,
-  autoResetFilters: !skipPageReset,
-  autoResetRowState: !skipPageReset,
+  autoResetPage: !skipPageResetRef.current,
+  autoResetExpanded: !skipPageResetRef.current,
+  autoResetGroupBy: !skipPageResetRef.current,
+  autoResetSelectedRows: !skipPageResetRef.current,
+  autoResetSortBy: !skipPageResetRef.current,
+  autoResetFilters: !skipPageResetRef.current,
+  autoResetRowState: !skipPageResetRef.current,
 })
 ```
 
